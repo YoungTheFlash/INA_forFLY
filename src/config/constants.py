@@ -9,8 +9,8 @@ APP_VERSION = "1.0.0"
 
 # Storage Settings - Images no longer stored locally
 # Only configuration and session data are stored
-DEFAULT_STORAGE_DIR = "~/INA_Data"
-CONFIG_DIR = "~/.intention_app"
+DEFAULT_STORAGE_DIR = "~/INA_Data_dev"
+CONFIG_DIR = "~/.intention_app_dev"
 PROMPT_CONFIG_FILE = "prompt_config.json"
 
 # Sound Settings

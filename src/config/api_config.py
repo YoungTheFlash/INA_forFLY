@@ -64,7 +64,7 @@ IMAGE_CONFIG = {
 class APIConfigManager:
     """Manages API configuration with file-based storage"""
 
-    def __init__(self, config_dir: str = "~/.intention_app"):
+    def __init__(self, config_dir: str = "~/.intention_app_dev"):
         self.config_dir = os.path.expanduser(config_dir)
         self.config_file = os.path.join(self.config_dir, "api_config.json")
         self._ensure_config_dir()
